@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1519999295510" analysisTimestamp="1519999295583" release="">
+  <Project projectName="">
+    <Jar>C:\Users\Govert\IdeaProjects\zooproject\build\classes\java\main</Jar>
+    <SrcDir>C:\Users\Govert\IdeaProjects\zooproject\src\main\java\CLI.java</SrcDir>
+    <SrcDir>C:\Users\Govert\IdeaProjects\zooproject\src\main\java\gui\ChoiceField.java</SrcDir>
+    <SrcDir>C:\Users\Govert\IdeaProjects\zooproject\src\main\java\gui\DoubleField.java</SrcDir>
+    <SrcDir>C:\Users\Govert\IdeaProjects\zooproject\src\main\java\gui\InputChecker.java</SrcDir>
+    <SrcDir>C:\Users\Govert\IdeaProjects\zooproject\src\main\java\gui\IntField.java</SrcDir>
+    <SrcDir>C:\Users\Govert\IdeaProjects\zooproject\src\main\java\gui\JTextAreaOutputStream.java</SrcDir>
+    <SrcDir>C:\Users\Govert\IdeaProjects\zooproject\src\main\java\gui\Messenger.java</SrcDir>
+    <SrcDir>C:\Users\Govert\IdeaProjects\zooproject\src\main\java\gui\Questioner.java</SrcDir>
+    <SrcDir>C:\Users\Govert\IdeaProjects\zooproject\src\main\java\gui\Reporter.java</SrcDir>
+    <SrcDir>C:\Users\Govert\IdeaProjects\zooproject\src\main\java\gui\UseCaseHandler.java</SrcDir>
+    <SrcDir>C:\Users\Govert\IdeaProjects\zooproject\src\main\java\gui\UseCaseSet.java</SrcDir>
+    <SrcDir>C:\Users\Govert\IdeaProjects\zooproject\src\main\java\GUI.java</SrcDir>
+    <SrcDir>C:\Users\Govert\IdeaProjects\zooproject\src\main\java\util\ArrayEnumerationFactory.java</SrcDir>
+    <SrcDir>C:\Users\Govert\IdeaProjects\zooproject\src\main\java\util\ReadInput.java</SrcDir>
+    <SrcDir>C:\Users\Govert\IdeaProjects\zooproject\src\main\java\zoo\Administrator.java</SrcDir>
+    <SrcDir>C:\Users\Govert\IdeaProjects\zooproject\src\main\java\zoo\Animal.java</SrcDir>
+    <SrcDir>C:\Users\Govert\IdeaProjects\zooproject\src\main\java\zoo\Cage.java</SrcDir>
+    <SrcDir>C:\Users\Govert\IdeaProjects\zooproject\src\main\java\zoo\Employee.java</SrcDir>
+    <SrcDir>C:\Users\Govert\IdeaProjects\zooproject\src\main\java\zoo\Keeper.java</SrcDir>
+    <SrcDir>C:\Users\Govert\IdeaProjects\zooproject\src\main\java\zoo\Manager.java</SrcDir>
+    <SrcDir>C:\Users\Govert\IdeaProjects\zooproject\src\main\java\zoo\Zoo.java</SrcDir>
+  </Project>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N">
+    <Class classname="CLI">
+      <SourceLine classname="CLI" start="53" end="428" sourcefile="CLI.java" sourcepath="CLI.java"/>
+    </Class>
+    <Method classname="CLI" name="loadFile" signature="()V" isStatic="false">
+      <SourceLine classname="CLI" start="325" end="421" startBytecode="0" endBytecode="1173" sourcefile="CLI.java" sourcepath="CLI.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/File;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner" start="611" end="612" startBytecode="0" endBytecode="43" sourcefile="Scanner.java" sourcepath="java/util/Scanner.java"/>
+    </Method>
+    <SourceLine classname="CLI" start="327" end="327" startBytecode="37" endBytecode="37" sourcefile="CLI.java" sourcepath="CLI.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N">
+    <Class classname="CLI">
+      <SourceLine classname="CLI" start="53" end="428" sourcefile="CLI.java" sourcepath="CLI.java"/>
+    </Class>
+    <Method classname="CLI" name="saveFile" signature="()V" isStatic="false">
+      <SourceLine classname="CLI" start="308" end="318" startBytecode="0" endBytecode="244" sourcefile="CLI.java" sourcepath="CLI.java"/>
+    </Method>
+    <Method classname="java.io.FileWriter" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileWriter" start="63" end="64" startBytecode="0" endBytecode="40" sourcefile="FileWriter.java" sourcepath="java/io/FileWriter.java"/>
+    </Method>
+    <SourceLine classname="CLI" start="310" end="310" startBytecode="34" endBytecode="34" sourcefile="CLI.java" sourcepath="CLI.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="CLI">
+      <SourceLine classname="CLI" start="53" end="428" sourcefile="CLI.java" sourcepath="CLI.java"/>
+    </Class>
+    <Method classname="CLI" name="werknemerToevoegen" signature="()V" isStatic="false">
+      <SourceLine classname="CLI" start="247" end="282" startBytecode="0" endBytecode="441" sourcefile="CLI.java" sourcepath="CLI.java"/>
+    </Method>
+    <SourceLine classname="CLI" start="258" end="278" startBytecode="68" endBytecode="192" sourcefile="CLI.java" sourcepath="CLI.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N">
+    <Class classname="GUI">
+      <SourceLine classname="GUI" start="77" end="580" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    </Class>
+    <Method classname="GUI" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="GUI" start="148" end="201" startBytecode="0" endBytecode="530" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    </Method>
+    <Method classname="java.io.PrintStream" name="&lt;init&gt;" signature="(Ljava/io/OutputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.PrintStream" start="135" end="136" startBytecode="0" endBytecode="34" sourcefile="PrintStream.java" sourcepath="java/io/PrintStream.java"/>
+    </Method>
+    <SourceLine classname="GUI" start="155" end="155" startBytecode="61" endBytecode="61" sourcefile="GUI.java" sourcepath="GUI.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N">
+    <Class classname="GUI">
+      <SourceLine classname="GUI" start="77" end="580" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    </Class>
+    <Method classname="GUI" name="loadFile" signature="()V" isStatic="false">
+      <SourceLine classname="GUI" start="440" end="550" startBytecode="0" endBytecode="1375" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/File;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner" start="611" end="612" startBytecode="0" endBytecode="43" sourcefile="Scanner.java" sourcepath="java/util/Scanner.java"/>
+    </Method>
+    <SourceLine classname="GUI" start="449" end="449" startBytecode="91" endBytecode="91" sourcefile="GUI.java" sourcepath="GUI.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N">
+    <Class classname="GUI">
+      <SourceLine classname="GUI" start="77" end="580" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    </Class>
+    <Method classname="GUI" name="saveFile" signature="()V" isStatic="false">
+      <SourceLine classname="GUI" start="554" end="571" startBytecode="0" endBytecode="316" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    </Method>
+    <Method classname="java.io.FileWriter" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileWriter" start="63" end="64" startBytecode="0" endBytecode="40" sourcefile="FileWriter.java" sourcepath="java/io/FileWriter.java"/>
+    </Method>
+    <SourceLine classname="GUI" start="563" end="563" startBytecode="72" endBytecode="72" sourcefile="GUI.java" sourcepath="GUI.java"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_PARAMETER_STRING_WITH_EQ" priority="1" rank="14" abbrev="ES" category="BAD_PRACTICE">
+    <Class classname="GUI">
+      <SourceLine classname="GUI" start="77" end="580" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    </Class>
+    <Method classname="GUI" name="handleUseCase" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="GUI" start="208" end="238" startBytecode="0" endBytecode="84" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="111" end="3141" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="add animal" role="STRING_CONSTANT"/>
+    <LocalVariable name="useCaseName" register="1" pc="35" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="GUI" start="214" end="214" startBytecode="37" endBytecode="37" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.STATIC_AND_PARAMETER_IN_PUBLIC_METHOD" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_PARAMETER_STRING_WITH_EQ" priority="1" rank="14" abbrev="ES" category="BAD_PRACTICE">
+    <Class classname="GUI">
+      <SourceLine classname="GUI" start="77" end="580" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    </Class>
+    <Method classname="GUI" name="handleUseCase" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="GUI" start="208" end="238" startBytecode="0" endBytecode="84" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="111" end="3141" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="add employee" role="STRING_CONSTANT"/>
+    <LocalVariable name="useCaseName" register="1" pc="77" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="GUI" start="220" end="220" startBytecode="79" endBytecode="79" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.STATIC_AND_PARAMETER_IN_PUBLIC_METHOD" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_PARAMETER_STRING_WITH_EQ" priority="1" rank="14" abbrev="ES" category="BAD_PRACTICE">
+    <Class classname="GUI">
+      <SourceLine classname="GUI" start="77" end="580" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    </Class>
+    <Method classname="GUI" name="handleUseCase" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="GUI" start="208" end="238" startBytecode="0" endBytecode="84" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="111" end="3141" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="load zoo" role="STRING_CONSTANT"/>
+    <LocalVariable name="useCaseName" register="1" pc="22" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="GUI" start="212" end="212" startBytecode="24" endBytecode="24" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.STATIC_AND_PARAMETER_IN_PUBLIC_METHOD" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_PARAMETER_STRING_WITH_EQ" priority="1" rank="14" abbrev="ES" category="BAD_PRACTICE">
+    <Class classname="GUI">
+      <SourceLine classname="GUI" start="77" end="580" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    </Class>
+    <Method classname="GUI" name="handleUseCase" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="GUI" start="208" end="238" startBytecode="0" endBytecode="84" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="111" end="3141" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="new zoo" role="STRING_CONSTANT"/>
+    <LocalVariable name="useCaseName" register="1" pc="9" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="GUI" start="210" end="210" startBytecode="11" endBytecode="11" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.STATIC_AND_PARAMETER_IN_PUBLIC_METHOD" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_PARAMETER_STRING_WITH_EQ" priority="1" rank="14" abbrev="ES" category="BAD_PRACTICE">
+    <Class classname="GUI">
+      <SourceLine classname="GUI" start="77" end="580" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    </Class>
+    <Method classname="GUI" name="handleUseCase" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="GUI" start="208" end="238" startBytecode="0" endBytecode="84" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="111" end="3141" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="remove animal" role="STRING_CONSTANT"/>
+    <LocalVariable name="useCaseName" register="1" pc="48" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="GUI" start="216" end="216" startBytecode="50" endBytecode="50" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.STATIC_AND_PARAMETER_IN_PUBLIC_METHOD" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_PARAMETER_STRING_WITH_EQ" priority="1" rank="14" abbrev="ES" category="BAD_PRACTICE">
+    <Class classname="GUI">
+      <SourceLine classname="GUI" start="77" end="580" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    </Class>
+    <Method classname="GUI" name="handleUseCase" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="GUI" start="208" end="238" startBytecode="0" endBytecode="84" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="111" end="3141" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="remove employee" role="STRING_CONSTANT"/>
+    <LocalVariable name="useCaseName" register="1" pc="90" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="GUI" start="222" end="222" startBytecode="92" endBytecode="92" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.STATIC_AND_PARAMETER_IN_PUBLIC_METHOD" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_PARAMETER_STRING_WITH_EQ" priority="1" rank="14" abbrev="ES" category="BAD_PRACTICE">
+    <Class classname="GUI">
+      <SourceLine classname="GUI" start="77" end="580" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    </Class>
+    <Method classname="GUI" name="handleUseCase" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="GUI" start="208" end="238" startBytecode="0" endBytecode="84" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="111" end="3141" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="save zoo" role="STRING_CONSTANT"/>
+    <LocalVariable name="useCaseName" register="1" pc="135" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="GUI" start="228" end="228" startBytecode="137" endBytecode="137" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.STATIC_AND_PARAMETER_IN_PUBLIC_METHOD" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_PARAMETER_STRING_WITH_EQ" priority="1" rank="14" abbrev="ES" category="BAD_PRACTICE">
+    <Class classname="GUI">
+      <SourceLine classname="GUI" start="77" end="580" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    </Class>
+    <Method classname="GUI" name="handleUseCase" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="GUI" start="208" end="238" startBytecode="0" endBytecode="84" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="111" end="3141" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="show animals" role="STRING_CONSTANT"/>
+    <LocalVariable name="useCaseName" register="1" pc="61" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="GUI" start="218" end="218" startBytecode="63" endBytecode="63" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.STATIC_AND_PARAMETER_IN_PUBLIC_METHOD" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_PARAMETER_STRING_WITH_EQ" priority="1" rank="14" abbrev="ES" category="BAD_PRACTICE">
+    <Class classname="GUI">
+      <SourceLine classname="GUI" start="77" end="580" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    </Class>
+    <Method classname="GUI" name="handleUseCase" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="GUI" start="208" end="238" startBytecode="0" endBytecode="84" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="111" end="3141" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="show costs" role="STRING_CONSTANT"/>
+    <LocalVariable name="useCaseName" register="1" pc="119" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="GUI" start="226" end="226" startBytecode="121" endBytecode="121" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.STATIC_AND_PARAMETER_IN_PUBLIC_METHOD" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_PARAMETER_STRING_WITH_EQ" priority="1" rank="14" abbrev="ES" category="BAD_PRACTICE">
+    <Class classname="GUI">
+      <SourceLine classname="GUI" start="77" end="580" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    </Class>
+    <Method classname="GUI" name="handleUseCase" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="GUI" start="208" end="238" startBytecode="0" endBytecode="84" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="111" end="3141" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="show employees" role="STRING_CONSTANT"/>
+    <LocalVariable name="useCaseName" register="1" pc="103" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="GUI" start="224" end="224" startBytecode="105" endBytecode="105" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.STATIC_AND_PARAMETER_IN_PUBLIC_METHOD" value="true"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="GUI">
+      <SourceLine classname="GUI" start="77" end="580" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    </Class>
+    <Method classname="GUI" name="addEmployee" signature="()V" isStatic="false">
+      <SourceLine classname="GUI" start="318" end="383" startBytecode="0" endBytecode="670" sourcefile="GUI.java" sourcepath="GUI.java"/>
+    </Method>
+    <SourceLine classname="GUI" start="351" end="374" startBytecode="170" endBytecode="293" sourcefile="GUI.java" sourcepath="GUI.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N">
+    <Class classname="gui.Reporter">
+      <SourceLine classname="gui.Reporter" start="25" end="220" sourcefile="Reporter.java" sourcepath="gui/Reporter.java"/>
+    </Class>
+    <Method classname="gui.Reporter" name="getPrintStream" signature="()Ljava/io/PrintStream;" isStatic="false">
+      <SourceLine classname="gui.Reporter" start="172" end="172" startBytecode="0" endBytecode="53" sourcefile="Reporter.java" sourcepath="gui/Reporter.java"/>
+    </Method>
+    <Method classname="java.io.PrintStream" name="&lt;init&gt;" signature="(Ljava/io/OutputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.PrintStream" start="135" end="136" startBytecode="0" endBytecode="34" sourcefile="PrintStream.java" sourcepath="java/io/PrintStream.java"/>
+    </Method>
+    <SourceLine classname="gui.Reporter" start="172" end="172" startBytecode="8" endBytecode="8" sourcefile="Reporter.java" sourcepath="gui/Reporter.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="2" rank="17" abbrev="ST" category="STYLE">
+    <Class classname="gui.Reporter">
+      <SourceLine classname="gui.Reporter" start="25" end="220" sourcefile="Reporter.java" sourcepath="gui/Reporter.java"/>
+    </Class>
+    <Method classname="gui.Reporter" name="&lt;init&gt;" signature="(Ljava/lang/String;II)V" isStatic="false">
+      <SourceLine classname="gui.Reporter" start="69" end="97" startBytecode="0" endBytecode="387" sourcefile="Reporter.java" sourcepath="gui/Reporter.java"/>
+    </Method>
+    <Field classname="gui.Reporter" name="counter" signature="I" isStatic="true">
+      <SourceLine classname="gui.Reporter" sourcefile="Reporter.java" sourcepath="gui/Reporter.java"/>
+    </Field>
+    <SourceLine classname="gui.Reporter" start="86" end="86" startBytecode="148" endBytecode="148" sourcefile="Reporter.java" sourcepath="gui/Reporter.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE">
+    <Class classname="util.ArrayEnumerationFactory">
+      <SourceLine classname="util.ArrayEnumerationFactory" start="13" end="55" sourcefile="ArrayEnumerationFactory.java" sourcepath="util/ArrayEnumerationFactory.java"/>
+    </Class>
+    <Method classname="util.ArrayEnumerationFactory" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="util.ArrayEnumerationFactory" start="40" end="55" startBytecode="0" endBytecode="58" sourcefile="ArrayEnumerationFactory.java" sourcepath="util/ArrayEnumerationFactory.java"/>
+    </Method>
+    <LocalVariable name="e" register="1" pc="90" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="util.ArrayEnumerationFactory" start="51" end="51" startBytecode="89" endBytecode="89" sourcefile="ArrayEnumerationFactory.java" sourcepath="util/ArrayEnumerationFactory.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="e"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N">
+    <Class classname="util.ReadInput">
+      <SourceLine classname="util.ReadInput" start="17" end="64" sourcefile="ReadInput.java" sourcepath="util/ReadInput.java"/>
+    </Class>
+    <Method classname="util.ReadInput" name="getString" signature="(Ljava/lang/String;)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="util.ReadInput" start="27" end="45" startBytecode="0" endBytecode="258" sourcefile="ReadInput.java" sourcepath="util/ReadInput.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader" start="72" end="79" startBytecode="0" endBytecode="108" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java"/>
+    </Method>
+    <SourceLine classname="util.ReadInput" start="31" end="31" startBytecode="56" endBytecode="56" sourcefile="ReadInput.java" sourcepath="util/ReadInput.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 2 Mar 2018 15:01:35 +0100" total_classes="24" referenced_classes="471" total_bugs="21" total_size="1407" num_packages="4" java_version="1.8.0_121" vm_version="25.121-b13" cpu_seconds="20.11" clock_seconds="6.83" peak_mbytes="355.03" alloc_mbytes="1817.00" gc_seconds="0.74" priority_2="4" priority_1="17">
+    <PackageStats package="" total_bugs="17" total_types="2" total_size="489" priority_2="2" priority_1="15">
+      <ClassStats class="CLI" sourceFile="CLI.java" interface="false" size="205" bugs="3" priority_2="1" priority_1="2"/>
+      <ClassStats class="GUI" sourceFile="GUI.java" interface="false" size="284" bugs="14" priority_2="1" priority_1="13"/>
+    </PackageStats>
+    <PackageStats package="gui" total_bugs="2" total_types="12" total_size="508" priority_2="1" priority_1="1">
+      <ClassStats class="gui.ChoiceField" sourceFile="ChoiceField.java" interface="false" size="26" bugs="0"/>
+      <ClassStats class="gui.DoubleField" sourceFile="DoubleField.java" interface="false" size="24" bugs="0"/>
+      <ClassStats class="gui.InputChecker" sourceFile="InputChecker.java" interface="false" size="26" bugs="0"/>
+      <ClassStats class="gui.IntField" sourceFile="IntField.java" interface="false" size="24" bugs="0"/>
+      <ClassStats class="gui.JTextAreaOutputStream" sourceFile="JTextAreaOutputStream.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="gui.Messenger" sourceFile="Messenger.java" interface="false" size="48" bugs="0"/>
+      <ClassStats class="gui.Questioner" sourceFile="Questioner.java" interface="false" size="196" bugs="0"/>
+      <ClassStats class="gui.Reporter" sourceFile="Reporter.java" interface="false" size="64" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="gui.Reporter$1" sourceFile="Reporter.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="gui.UseCaseHandler" sourceFile="UseCaseHandler.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="gui.UseCaseSet" sourceFile="UseCaseSet.java" interface="false" size="57" bugs="0"/>
+      <ClassStats class="gui.UseCaseSet$1" sourceFile="UseCaseSet.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="util" total_bugs="2" total_types="3" total_size="56" priority_2="1" priority_1="1">
+      <ClassStats class="util.ArrayEnumerationFactory" sourceFile="ArrayEnumerationFactory.java" interface="false" size="20" bugs="1" priority_2="1"/>
+      <ClassStats class="util.ArrayEnumerationFactory$1" sourceFile="ArrayEnumerationFactory.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="util.ReadInput" sourceFile="ReadInput.java" interface="false" size="25" bugs="1" priority_1="1"/>
+    </PackageStats>
+    <PackageStats package="zoo" total_bugs="0" total_types="7" total_size="354">
+      <ClassStats class="zoo.Administrator" sourceFile="Administrator.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="zoo.Animal" sourceFile="Animal.java" interface="false" size="45" bugs="0"/>
+      <ClassStats class="zoo.Cage" sourceFile="Cage.java" interface="false" size="59" bugs="0"/>
+      <ClassStats class="zoo.Employee" sourceFile="Employee.java" interface="false" size="45" bugs="0"/>
+      <ClassStats class="zoo.Keeper" sourceFile="Keeper.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="zoo.Manager" sourceFile="Manager.java" interface="false" size="37" bugs="0"/>
+      <ClassStats class="zoo.Zoo" sourceFile="Zoo.java" interface="false" size="126" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="1168" invocations="1976" avgMicrosecondsPerInvocation="591" maxMicrosecondsPerInvocation="35657" standardDeviationMircosecondsPerInvocation="1628"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="850" invocations="1972" avgMicrosecondsPerInvocation="431" maxMicrosecondsPerInvocation="150442" standardDeviationMircosecondsPerInvocation="3635"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="615" invocations="182" avgMicrosecondsPerInvocation="3380" maxMicrosecondsPerInvocation="475555" standardDeviationMircosecondsPerInvocation="35115"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="452" invocations="471" avgMicrosecondsPerInvocation="960" maxMicrosecondsPerInvocation="19750" standardDeviationMircosecondsPerInvocation="1999"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="420" invocations="471" avgMicrosecondsPerInvocation="893" maxMicrosecondsPerInvocation="16197" standardDeviationMircosecondsPerInvocation="1828"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="261" invocations="1121" avgMicrosecondsPerInvocation="232" maxMicrosecondsPerInvocation="4415" standardDeviationMircosecondsPerInvocation="361"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="171" invocations="268" avgMicrosecondsPerInvocation="639" maxMicrosecondsPerInvocation="13598" standardDeviationMircosecondsPerInvocation="1223"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="170" invocations="471" avgMicrosecondsPerInvocation="361" maxMicrosecondsPerInvocation="61719" standardDeviationMircosecondsPerInvocation="2894"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="163" invocations="261" avgMicrosecondsPerInvocation="627" maxMicrosecondsPerInvocation="12781" standardDeviationMircosecondsPerInvocation="1184"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="118" invocations="181" avgMicrosecondsPerInvocation="655" maxMicrosecondsPerInvocation="8232" standardDeviationMircosecondsPerInvocation="866"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="111" invocations="182" avgMicrosecondsPerInvocation="614" maxMicrosecondsPerInvocation="18316" standardDeviationMircosecondsPerInvocation="1503"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="106" invocations="181" avgMicrosecondsPerInvocation="587" maxMicrosecondsPerInvocation="5623" standardDeviationMircosecondsPerInvocation="725"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="94" invocations="170" avgMicrosecondsPerInvocation="554" maxMicrosecondsPerInvocation="22121" standardDeviationMircosecondsPerInvocation="1838"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="92" invocations="549" avgMicrosecondsPerInvocation="169" maxMicrosecondsPerInvocation="16243" standardDeviationMircosecondsPerInvocation="733"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

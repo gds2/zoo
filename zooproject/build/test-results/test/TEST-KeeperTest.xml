@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="KeeperTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2018-03-16T10:30:28" hostname="Govert-PC" time="0.005">
+  <properties/>
+  <testcase name="testKeeper1" classname="KeeperTest" time="0.003"/>
+  <testcase name="testKeeper2" classname="KeeperTest" time="0.0"/>
+  <testcase name="testKeeper4" classname="KeeperTest" time="0.0"/>
+  <testcase name="testKeeper0a" classname="KeeperTest" time="0.0"/>
+  <testcase name="testKeeper0b" classname="KeeperTest" time="0.0"/>
+  <testcase name="testKeeper3a" classname="KeeperTest" time="0.0"/>
+  <testcase name="testKeeper3b" classname="KeeperTest" time="0.0"/>
+  <testcase name="testKeeper" classname="KeeperTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
