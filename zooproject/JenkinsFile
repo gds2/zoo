@@ -1,0 +1,14 @@
+pipeline{
+    agent  any
+     def rtGradle = Arti
+
+
+    stage('Clone'){
+     git credentialsId: 'c1ee9a39-190a-4d85-b234-8988050c0927', url: 'https://github.com/SaxionACT/2017-2018-Development-Tools-T59.git'
+
+    }
+
+
+
+
+    }
